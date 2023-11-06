@@ -256,15 +256,11 @@
 @media screen and (max-width: 768px) {
   .offside-element {
     position: relative;
-    top: 0;
-  }
-
-  body {
-    padding-top: 100px;
+    top: 100px;
   }
 
   .carousel {
-    height: 30vh;
+    height: 600px;
   }
 
   .about .about-img img {
