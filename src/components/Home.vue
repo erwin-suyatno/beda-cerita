@@ -248,7 +248,7 @@
   }
 
   .contact .row {
-    padding: 0;
+    padding: 7%;
   }
 }
 
