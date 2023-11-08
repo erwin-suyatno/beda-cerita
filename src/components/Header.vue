@@ -80,7 +80,8 @@ export default {
   overflow: hidden;
   justify-content: center;
 }
-
+#navbarTogglerDemo03 .collape .navbar-collapse{
+  padding: 20px
 .navbar {
   font-size: 1.8rem; /* "auto" mungkin tidak perlu, karena ukuran font sebaiknya diatur secara eksplisit */
 }
