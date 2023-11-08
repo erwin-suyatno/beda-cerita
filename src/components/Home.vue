@@ -155,7 +155,7 @@
 }
 
 .about {
-  padding: 15vh 7% 1.4rem;
+  padding: 15rem 7% 1.4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -193,7 +193,7 @@
 }
 
 .contact {
-  padding: 8rem 7% 1.4rem;
+  padding: 40rem 7% 1.4rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -213,6 +213,10 @@
   padding: 7%;
 }
 
+.card-body{
+    background-color: #313131;
+    -webkit-text-fill-color: white;
+  }
 @media screen and (max-width: 1024px) {
   .offside-element {
     position: relative;
@@ -289,13 +293,16 @@
 @media screen and (max-width: 460px) {
   .offside-element {
     position: relative;
-    top: 80px;
+    top: 50px;
   }
 
   .carousel {
-    height: 300px;
+    height: 30px;
   }
 
+  .contact{
+    padding: 70vh 7% 1.4rem;
+  }
   .about .about-img img {
     display: flex;
     justify-content: center;
@@ -320,8 +327,9 @@
     margin-bottom: 3rem;
   }
 
-  .contact .maps {
-    heigth:100px;
+  .card-body{
+    background-color: #313131;
+    -webkit-text-fill-color: white;
   }
 }
 </style>
