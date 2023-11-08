@@ -155,7 +155,7 @@
 }
 
 .about {
-  padding: 15vh 7% 1.4rem;
+  padding: 15rem 7% 1.4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -193,7 +193,7 @@
 }
 
 .contact {
-  padding: 8rem 7% 1.4rem;
+  padding: 40rem 7% 1.4rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -213,6 +213,10 @@
   padding: 7%;
 }
 
+.card-body{
+    background-color: #313131;
+    -webkit-text-fill-color: white;
+  }
 @media screen and (max-width: 1024px) {
   .offside-element {
     position: relative;
