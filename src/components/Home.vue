@@ -290,7 +290,7 @@
 @media screen and (max-width: 460px) {
   .offside-element {
     position: relative;
-    top: 60px;
+    top: 80px;
   }
 
   .carousel {
