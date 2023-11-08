@@ -110,7 +110,7 @@ export default {
 @media screen and (max-width: 1024px) {
   /* Mengatur ukuran font dan padding pada elemen navbar saat layar lebih kecil dari 1024px */
   .navbar {
-    font-size: 20px;
+    font-size: 10px;
   }
 
   .nav-item {
