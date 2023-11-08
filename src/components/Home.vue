@@ -307,7 +307,7 @@
   }
 
   .about {
-    padding: 15rem 7% 1.4rem;
+    padding: 5rem 7% 1.4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
