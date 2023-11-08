@@ -200,7 +200,7 @@
   text-align: center;
 
   .maps {
-    max-width: 100%;
+    max-width: 90%;
     height: 400px;
   }
 }
@@ -245,7 +245,7 @@
     padding: 5vh 7% 1.4rem;
   }
   .contact .maps {
-    height: 500px;
+    height: 350px;
   }
 
   .contact .row {
@@ -322,7 +322,7 @@
   }
 
   .contact .maps {
-    heigth:200px;
+    heigth:100px;
   }
 }
 </style>
