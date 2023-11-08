@@ -33,7 +33,7 @@ export default {
 }
 
 .footer-container {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
