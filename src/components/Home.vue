@@ -195,6 +195,7 @@
 }
 
 .contact {
+  padding: 8rem 7% 1.4rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -209,9 +210,6 @@
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
-}
-.contact .row {
-  padding: 8rem 7% 1.4rem;
 }
 
 @media screen and (max-width: 1024px) {
