@@ -4,9 +4,7 @@
       <Header />
     </div>
     <router-view />
-    <div class="footer-container">
-      <Footer />
-    </div>
+    <Footer />
   </div>
 </template>
 
@@ -32,15 +30,6 @@ export default {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan jika diperlukan */
 }
 
-.footer-container {
-  position: flex;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999; /* Atur nilai z-index untuk memastikan header muncul di atas konten lainnya */
-  background-color: #fff; /* Ganti dengan warna latar belakang yang Anda inginkan */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan jika diperlukan */ 
-}
 /* Atur margin atas pada elemen yang berada di bawah header agar tidak tertutupi oleh header */
 .router-view {
   margin-top: 70px; /* Sesuaikan dengan tinggi header Anda */
