@@ -131,15 +131,13 @@
     </div>
 
     <div class="contact" id="contact">
-      <div class="row">
-        <h2>Lokasi BEDA CERITA</h2>
-        <iframe
-          class="maps"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15844.075534412541!2d107.6557487609417!3d-6.888341186867596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e78b2c130ef7%3A0x49b6024b0f4d8da6!2sBeda%20Cerita%20Coffee!5e0!3m2!1sid!2sid!4v1694859271817!5m2!1sid!2sid"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
+      <h2>Lokasi BEDA CERITA</h2>
+      <iframe
+        class="maps"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15844.075534412541!2d107.6557487609417!3d-6.888341186867596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e78b2c130ef7%3A0x49b6024b0f4d8da6!2sBeda%20Cerita%20Coffee!5e0!3m2!1sid!2sid!4v1694859271817!5m2!1sid!2sid"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
   </div>
 </template>
