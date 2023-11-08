@@ -199,7 +199,7 @@
   text-align: center;
 
   .maps {
-    max-width: 90%;
+    max-width: 100%;
     height: 400px;
   }
 }
