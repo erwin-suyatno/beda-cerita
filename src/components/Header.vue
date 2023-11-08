@@ -87,6 +87,7 @@ export default {
 }
 
 .nav-item {
+  padding: 20%;
   width: auto;
   text-align: center;
 }
