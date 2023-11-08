@@ -85,7 +85,7 @@ export default {
 
 <style>
 .image-container {
-  width: 600px;
+  width: 400px;
   display: flex;
   align-items: center;
   overflow: hidden;
