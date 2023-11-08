@@ -103,7 +103,7 @@ export default {
 
 /* Untuk mengatur gambar logo */
 .image-container img {
-  max-width: 50%; /* Gambar tidak melebihi lebar parent (kontainer) */
+  max-width: 100%; /* Gambar tidak melebihi lebar parent (kontainer) */
   height: auto; /* Tinggi gambar disesuaikan agar gambar tidak terdistorsi */
 }
 @media screen and (max-width: 1440px) {
