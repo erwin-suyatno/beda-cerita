@@ -19,7 +19,7 @@
         </div>
         <div>
           <!-- icon Search -->
-          <!-- <form class="d-flex">
+          <form class="d-flex">
             <input
               class="form-control me-2"
               type="search"
@@ -29,7 +29,7 @@
             <button class="btn btn-outline-success" type="submit">
               Search
             </button>
-          </form> -->
+          </form>
         </div>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -48,17 +48,6 @@
               <router-link to="/kontak" class="nav-link">Kontak</router-link>
             </li>
           </ul>
-          <!-- <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form> -->
         </div>
       </div>
     </nav>
