@@ -123,7 +123,7 @@ export default {
   }
 
   .image-container img {
-    max-width: 100%;
+    max-width: 80%;
   }
 }
 /* Media queries untuk mengatur konten berdasarkan resolusi layar */
