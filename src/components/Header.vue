@@ -106,7 +106,7 @@ export default {
   max-width: 50%; /* Gambar tidak melebihi lebar parent (kontainer) */
   height: auto; /* Tinggi gambar disesuaikan agar gambar tidak terdistorsi */
 }
-@meida screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .image-container {
   width: 400px;
   display: flex;
