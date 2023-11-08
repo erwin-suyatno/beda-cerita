@@ -209,6 +209,9 @@
   font-size: 2.6rem;
   margin-bottom: 3rem;
 }
+.contact .row {
+  padding: 7%;
+}
 
 @media screen and (max-width: 1024px) {
   .offside-element {
