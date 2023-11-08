@@ -107,11 +107,10 @@ export default {
   height: auto; /* Tinggi gambar disesuaikan agar gambar tidak terdistorsi */
 }
 
-/* Media queries untuk mengatur konten berdasarkan resolusi layar */
-@media screen and (max-width: 480px) {
-  /* Mengatur ukuran font dan padding pada elemen navbar saat layar lebih kecil dari 768px */
+@media screen and (max-width: 1024px) {
+  /* Mengatur ukuran font dan padding pada elemen navbar saat layar lebih kecil dari 1024px */
   .navbar {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .nav-item {
@@ -119,13 +118,14 @@ export default {
   }
 
   .image-container {
-    width: 200px;
+    width: 300px;
   }
 
   .image-container img {
-    max-width: 80%;
+    max-width: 100%;
   }
 }
+
 /* Media queries untuk mengatur konten berdasarkan resolusi layar */
 @media screen and (max-width: 768px) {
   /* Mengatur ukuran font dan padding pada elemen navbar saat layar lebih kecil dari 768px */
@@ -146,10 +146,11 @@ export default {
   }
 }
 
-@media screen and (max-width: 1024px) {
-  /* Mengatur ukuran font dan padding pada elemen navbar saat layar lebih kecil dari 1024px */
+/* Media queries untuk mengatur konten berdasarkan resolusi layar */
+@media screen and (max-width: 480px) {
+  /* Mengatur ukuran font dan padding pada elemen navbar saat layar lebih kecil dari 768px */
   .navbar {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .nav-item {
@@ -157,11 +158,12 @@ export default {
   }
 
   .image-container {
-    width: 300px;
+    width: 200px;
   }
 
   .image-container img {
-    max-width: 100%;
+    max-width: 80%;
   }
 }
+
 </style>
