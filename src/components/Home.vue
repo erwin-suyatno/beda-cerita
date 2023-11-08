@@ -320,5 +320,9 @@
   .menu h2 {
     margin-bottom: 3rem;
   }
+
+  .contact .maps {
+    heigth:200px;
+  }
 }
 </style>
