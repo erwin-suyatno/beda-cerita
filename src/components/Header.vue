@@ -89,16 +89,16 @@ export default {
   display: flex;
   align-items: center;
   overflow: hidden;
-  padding: 20px;
   justify-content: center;
 }
 
 .navbar {
-  font-size: 2rem; /* "auto" mungkin tidak perlu, karena ukuran font sebaiknya diatur secara eksplisit */
+  font-size: 1.8rem; /* "auto" mungkin tidak perlu, karena ukuran font sebaiknya diatur secara eksplisit */
 }
 
 .nav-item {
-  padding-right: 50px;
+  width: auto;
+  text-align: center;
 }
 
 /* Untuk mengatur gambar logo */
