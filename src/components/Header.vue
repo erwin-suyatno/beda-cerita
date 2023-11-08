@@ -138,11 +138,11 @@ export default {
   }
 
   .image-container {
-    width: 300px;
+    width: 200px;
   }
 
   .image-container img {
-    max-width: 100%;
+    max-width: 80%;
   }
 }
 
