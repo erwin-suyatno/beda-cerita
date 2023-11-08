@@ -37,7 +37,7 @@
         </div>
         <div>
           <!-- icon Search -->
-          <form class="d-flex">
+          <form>
             <input
               class="form-control me-2"
               type="search"
