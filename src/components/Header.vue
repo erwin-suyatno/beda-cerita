@@ -106,7 +106,30 @@ export default {
   max-width: 50%; /* Gambar tidak melebihi lebar parent (kontainer) */
   height: auto; /* Tinggi gambar disesuaikan agar gambar tidak terdistorsi */
 }
+@meida screen and (max-width: 1440px) {
+  .image-container {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 20px;
+  justify-content: center;
+}
 
+.navbar {
+  font-size: 1.6rem; /* "auto" mungkin tidak perlu, karena ukuran font sebaiknya diatur secara eksplisit */
+}
+
+.nav-item {
+  padding-right: 50px;
+}
+
+/* Untuk mengatur gambar logo */
+.image-container img {
+  max-width: 100%; /* Gambar tidak melebihi lebar parent (kontainer) */
+  height: auto; /* Tinggi gambar disesuaikan agar gambar tidak terdistorsi */
+}
+}
 @media screen and (max-width: 1024px) {
   /* Mengatur ukuran font dan padding pada elemen navbar saat layar lebih kecil dari 1024px */
   .navbar {
