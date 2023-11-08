@@ -287,4 +287,38 @@
     margin-bottom: 3rem;
   }
 }
+@media screen and (max-width: 460px) {
+  .offside-element {
+    position: relative;
+    top: 60px;
+  }
+
+  .carousel {
+    height: 300px;
+  }
+
+  .about .about-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+  }
+
+  .about {
+    padding: 15rem 7% 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .menu {
+    padding: 5vh 7% 1.4rem;
+  }
+  .menu h2 {
+    margin-bottom: 3rem;
+  }
+}
 </style>
