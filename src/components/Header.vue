@@ -14,7 +14,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-brand" href=#>
+        <div class="image-container" href="#">
           <img src="../assets/logo-beda-cerita.png" alt="@bedacerita" />
         </div>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -70,14 +70,12 @@ export default {
   overflow: hidden;
   justify-content: center;
 }
-#navbarTogglerDemo03 .collape .navbar-collapse{
-  padding: 20px
 .navbar {
   font-size: 1.8rem; /* "auto" mungkin tidak perlu, karena ukuran font sebaiknya diatur secara eksplisit */
 }
 
 .nav-item {
-  padding: 20%;
+  padding: 1rem;
   width: auto;
   text-align: center;
 }
@@ -134,7 +132,7 @@ export default {
   }
 
   .nav-item {
-    padding-right: 10px;
+    padding-right: 5px;
   }
 
   .image-container {
