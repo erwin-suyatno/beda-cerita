@@ -4,7 +4,7 @@ input[type="radio"] {
 }
 
 .card {
-  width: 500px;
+  width: 300px;
   height: 100%;
   left: 0;
   right: 0;
@@ -42,7 +42,7 @@ img {
 #item-1:checked ~ .cards #song-3,
 #item-2:checked ~ .cards #song-1,
 #item-3:checked ~ .cards #song-2 {
-  transform: translatex(145%) scale(0.6);
+  transform: translatex(190%) scale(0.6);
   opacity: 0.4;
   z-index: 0;
 }
@@ -50,7 +50,7 @@ img {
 #item-1:checked ~ .cards #song-2,
 #item-2:checked ~ .cards #song-3,
 #item-3:checked ~ .cards #song-1 {
-  transform: translatex(20%) scale(0.6);
+  transform: translatex(70%) scale(0.6);
   opacity: 0.4;
   z-index: 0;
 }
@@ -58,76 +58,13 @@ img {
 #item-1:checked ~ .cards #song-1,
 #item-2:checked ~ .cards #song-2,
 #item-3:checked ~ .cards #song-3 {
-  transform: translatex(80%) scale(0.8) translateY(-20px);
+  transform: translatex(130%) scale(0.8) translateY(-20px);
   opacity: 1;
   z-index: 1;
 
 }
 
-@media screen and (min-width: 1920px) {
-  
-  .card {
-    width: 900px;
-    height: 100%;
-    left: 0;
-    right: 0;
-    transition: transform 0.8s ease;
-    cursor: pointer;
-  }
-  
-  .container {
-    width: 100%;
-    max-width: 800px;
-    max-height: 600px;
-    height: 100%;
-    transform-style: preserve-3d;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .cards {
-    justify-content: center;
-    display: block;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    margin-bottom: 20px;
-  }
-  
-  img {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    object-fit: cover;
-  }
-  
-  #item-1:checked ~ .cards #song-3,
-  #item-2:checked ~ .cards #song-1,
-  #item-3:checked ~ .cards #song-2 {
-    transform: translatex(60%) scale(0.6);
-    opacity: 0.4;
-    z-index: 0;
-  }
-  
-  #item-1:checked ~ .cards #song-2,
-  #item-2:checked ~ .cards #song-3,
-  #item-3:checked ~ .cards #song-1 {
-    transform: translatex(-20%) scale(0.6);
-    opacity: 0.4;
-    z-index: 0;
-  }
-  
-  #item-1:checked ~ .cards #song-1,
-  #item-2:checked ~ .cards #song-2,
-  #item-3:checked ~ .cards #song-3 {
-    transform: translatex(20%) scale(0.8) translateY(-20px);
-    opacity: 1;
-    z-index: 1;
-  
-  }
-}
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1920px) {
   
   .card {
     width: 600px;
@@ -168,7 +105,7 @@ img {
   #item-1:checked ~ .cards #song-3,
   #item-2:checked ~ .cards #song-1,
   #item-3:checked ~ .cards #song-2 {
-    transform: translatex(100%) scale(0.6);
+    transform: translatex(120%) scale(0.6);
     opacity: 0.4;
     z-index: 0;
   }
@@ -184,7 +121,70 @@ img {
   #item-1:checked ~ .cards #song-1,
   #item-2:checked ~ .cards #song-2,
   #item-3:checked ~ .cards #song-3 {
-    transform: translatex(50%) scale(0.8) translateY(-20px);
+    transform: translatex(60%) scale(0.8) translateY(-20px);
+    opacity: 1;
+    z-index: 1;
+  
+  }
+}
+@media screen and (min-width: 1420px) and (max-width: 1600px) {
+  
+  .card {
+    width: 500px;
+    height: 100%;
+    left: 0;
+    right: 0;
+    transition: transform 0.8s ease;
+    cursor: pointer;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cards {
+    justify-content: center;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  #item-1:checked ~ .cards #song-3,
+  #item-2:checked ~ .cards #song-1,
+  #item-3:checked ~ .cards #song-2 {
+    transform: translatex(120%) scale(0.6);
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  #item-1:checked ~ .cards #song-2,
+  #item-2:checked ~ .cards #song-3,
+  #item-3:checked ~ .cards #song-1 {
+    transform: translatex(20%) scale(0.6);
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  #item-1:checked ~ .cards #song-1,
+  #item-2:checked ~ .cards #song-2,
+  #item-3:checked ~ .cards #song-3 {
+    transform: translatex(70%) scale(0.8) translateY(-20px);
     opacity: 1;
     z-index: 1;
   

@@ -151,16 +151,16 @@
 }
 
 .carousel {
-  margin-top: 12%;
+  margin-top: 13%;
   height: 100%;
 }
 
 .carousel-item img{
-  height: 650px;
+  height: 500px;
 }
 
 .about {
-  padding: 1rem 7% 1.4rem;
+  padding: 3rem 7% 1.4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -182,9 +182,9 @@
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 1000px;
-    height: 300px;
-    margin-bottom: 50px;
+    width: 800px;
+    height: 200px;
+    margin-bottom: 20px;
   }
 }
 
@@ -199,15 +199,15 @@
 }
 
 .contact {
-  padding: 33rem 7% 1.4rem;
+  padding: 25rem 7% 1.4rem;
   display: flex;
   flex-direction: column;
   text-align: center;
 
   .maps {
-    width: 80%;
-    height: 500px;
-    padding-left: 20%;
+    width: 90%;
+    height: 300px;
+    padding-left: 10%;
   }
 }
 
@@ -225,14 +225,14 @@
     -webkit-text-fill-color: white;
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (max-width: 1920px) {
   .carousel {
-    margin-top: 8%;
+    margin-top: 10%;
     height: 100%;
   }
 
   .carousel-item img{
-    height: 1100px;
+    height: 800px;
   }
 
   .about {
@@ -259,7 +259,7 @@
       align-items: center;
       height: auto;
       width: 1000px;
-      height: 680px;
+      height: 400px;
       margin-bottom: 50px;
     }
   }
@@ -275,14 +275,14 @@
   }
 
   .contact {
-    padding: 60rem 7% 1.4rem;
+    padding: 45rem 7% 1.4rem;
     display: flex;
     flex-direction: column;
     text-align: center;
 
     .maps {
       width: 80%;
-      height: 850px;
+      height: 650px;
       padding-left: 20%;
     }
   }
@@ -304,14 +304,14 @@
     font-size: 300%;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1420px) and (max-width: 1600) {
   .carousel {
-    margin-top: 12%;
+    margin-top: 13%;
     height: 100%;
   }
 
   .carousel-item img{
-    height: 800px;
+    height: 670px;
   }
 
   .about {
@@ -338,8 +338,8 @@
       align-items: center;
       height: auto;
       width: 1000px;
-      height: 400px;
-      margin-bottom: 50px;
+      height: 300px;
+      margin-bottom: 30px;
     }
   }
 
