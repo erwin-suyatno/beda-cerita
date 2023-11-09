@@ -63,52 +63,35 @@ export default {
 </script>
 
 <style>
-.image-container {
-  width: 300px;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  justify-content: center;
-}
 .navbar {
-  font-size: 1.6rem; /* "auto" mungkin tidak perlu, karena ukuran font sebaiknya diatur secara eksplisit */
-}
-
-.nav-item {
-  padding: 5px;
-  width: auto;
-  text-align: center;
-}
-
-/* Untuk mengatur gambar logo */
-.image-container img {
-  max-width: 100%; /* Gambar tidak melebihi lebar parent (kontainer) */
-}
-
-
-@media screen and (min-width: 1920px) {
-  .navbar {
-    font-size: 300%;
+    font-size: 180%;
   }
 
   .nav-item {
     margin: 20px;
     padding-right: 10px;
+    padding: 5px;
+    width: auto;
+    text-align: center;
   }
 
   .image-container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
     margin-left: 100px;
     padding: 30px;
-    width: 600px;
+    width: 400px;
   }
 
   .image-container img {
-    max-width: 200%;
+    max-width: 150%;
   }
-}
-@media screen and (min-width: 1440px) {
+
+@media screen and (max-width: 1440px) {
   .navbar {
-    font-size: 160%;
+    font-size: 130%;
   }
 
   .nav-item {
@@ -125,6 +108,29 @@ export default {
 
   .image-container img {
     max-width: 100%;
+  }
+}
+@media screen and (max-width: 1300px){
+  .image-container {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+  }
+  .navbar {
+    font-size: 1.4rem; /* "auto" mungkin tidak perlu, karena ukuran font sebaiknya diatur secara eksplisit */
+  }
+
+  .nav-item {
+    padding: 5px;
+    width: auto;
+    text-align: center;
+  }
+
+  /* Untuk mengatur gambar logo */
+  .image-container img {
+    max-width: 100%; /* Gambar tidak melebihi lebar parent (kontainer) */
   }
 }
 @media screen and (max-width: 1024px) {

@@ -151,82 +151,6 @@
 }
 
 .carousel {
-  margin-top: 13%;
-  height: 100%;
-}
-
-.carousel-item img{
-  height: 500px;
-}
-
-.about {
-  padding: 3rem 7% 1.4rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-
-  h2 {
-    text-align: center;
-    font-size: 2.6rem;
-    margin-bottom: 3rem;
-  }
-
-  p {
-    font-size: 18px;
-    text-align: center;
-  }
-
-  .about-img img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: 800px;
-    height: 200px;
-    margin-bottom: 20px;
-  }
-}
-
-.menu {
-  padding: 1rem 7% 1.4rem;
-
-  h2 {
-    text-align: center;
-    font-size: 2.6rem;
-    margin-bottom: 3rem;
-  }
-}
-
-.contact {
-  padding: 25rem 7% 1.4rem;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-
-  .maps {
-    width: 90%;
-    height: 300px;
-    padding-left: 10%;
-  }
-}
-
-.contact h2 {
-  text-align: center;
-  font-size: 2.6rem;
-  margin-bottom: 3rem;
-}
-.contact .row {
-  padding: 7%;
-}
-
-.card-body{
-    background-color: #313131;
-    -webkit-text-fill-color: white;
-}
-
-@media screen and (max-width: 1920px) {
-  .carousel {
     margin-top: 10%;
     height: 100%;
   }
@@ -303,8 +227,8 @@
   .card-body .card-title{
     font-size: 300%;
   }
-}
-@media screen and (min-width: 1420px) and (max-width: 1600) {
+
+@media screen and (max-width: 1440px){
   .carousel {
     margin-top: 13%;
     height: 100%;
@@ -381,6 +305,85 @@
   }
   .card-body .card-title{
     font-size: 300%;
+  }
+}
+@media screen and (max-width: 1300px){
+  .carousel {
+    margin-top: 13%;
+    height: 100%;
+  }
+
+  .carousel-item img{
+    height: 500px;
+  }
+
+  .about {
+    padding: 3rem 7% 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+      text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 3rem;
+    }
+
+    p {
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .about-img img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: 800px;
+      height: 200px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .menu {
+    padding: 1rem 7% 1.4rem;
+
+    h2 {
+      text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .contact {
+    padding: 25rem 7% 1.4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .maps {
+      width: 90%;
+      height: 300px;
+      padding-left: 10%;
+    }
+  }
+
+  .contact h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+  }
+  .contact .row {
+    padding: 7%;
+  }
+
+  .card-body{
+      background-color: #313131;
+      -webkit-text-fill-color: white;
+  }
+  .card-body .card-title{
+    font-size: 200%;
   }
 }
 @media screen and (max-width: 1024px) {
