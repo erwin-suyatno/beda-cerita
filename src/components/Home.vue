@@ -151,11 +151,16 @@
 }
 
 .carousel {
-  height: 100vh;
+  margin-top: 12%;
+  height: 100%;
+}
+
+.carousel-item img{
+  height: 650px;
 }
 
 .about {
-  padding: 15rem 7% 1.4rem;
+  padding: 1rem 7% 1.4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -168,7 +173,7 @@
   }
 
   p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
   }
 
@@ -176,14 +181,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
     height: auto;
-    width: 700px;
+    width: 1000px;
+    height: 300px;
+    margin-bottom: 50px;
   }
 }
 
 .menu {
-  padding: 8vh 7% 1.4rem;
+  padding: 1rem 7% 1.4rem;
 
   h2 {
     text-align: center;
@@ -193,14 +199,15 @@
 }
 
 .contact {
-  padding: 40rem 7% 1.4rem;
+  padding: 33rem 7% 1.4rem;
   display: flex;
   flex-direction: column;
   text-align: center;
 
   .maps {
-    max-width: 100%;
-    height: 400px;
+    width: 80%;
+    height: 500px;
+    padding-left: 20%;
   }
 }
 
@@ -216,120 +223,477 @@
 .card-body{
     background-color: #313131;
     -webkit-text-fill-color: white;
-  }
-@media screen and (max-width: 1024px) {
-  .offside-element {
-    position: relative;
-    top: 100px;
-  }
+}
 
+@media screen and (min-width: 1920px) {
   .carousel {
-    height: 600px;
+    margin-top: 8%;
+    height: 100%;
   }
 
-  .about .about-img img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    height: auto;
-    width: 500px;
+  .carousel-item img{
+    height: 1100px;
   }
 
   .about {
-    padding: 10vh 7% 1.4rem;
+    padding: 5rem 7% 1.4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+
+    h2 {
+      text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 3rem;
+    }
+
+    p {
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .about-img img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: 1000px;
+      height: 680px;
+      margin-bottom: 50px;
+    }
   }
 
   .menu {
-    padding: 5vh 7% 1.4rem;
-  }
-  .contact .maps {
-    height: 350px;
+    padding: 1rem 7% 1.4rem;
+
+    h2 {
+      text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 3rem;
+    }
   }
 
+  .contact {
+    padding: 60rem 7% 1.4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .maps {
+      width: 80%;
+      height: 850px;
+      padding-left: 20%;
+    }
+  }
+
+  .contact h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+  }
   .contact .row {
     padding: 7%;
   }
+
+  .card-body{
+      background-color: #313131;
+      -webkit-text-fill-color: white;
+  }
+  .card-body .card-title{
+    font-size: 300%;
+  }
 }
-
-@media screen and (max-width: 768px) {
-  .offside-element {
-    position: relative;
-    top: 100px;
-  }
-
+@media screen and (min-width: 1440px) {
   .carousel {
-    height: 600px;
+    margin-top: 12%;
+    height: 100%;
   }
 
-  .about .about-img img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    height: auto;
-    width: 500px;
+  .carousel-item img{
+    height: 800px;
   }
 
   .about {
-    padding: 15rem 7% 1.4rem;
+    padding: 3rem 7% 1.4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+
+    h2 {
+      text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 3rem;
+    }
+
+    p {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .about-img img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: 1000px;
+      height: 400px;
+      margin-bottom: 50px;
+    }
   }
 
   .menu {
-    padding: 5vh 7% 1.4rem;
-  }
-  .menu h2 {
-    margin-bottom: 3rem;
-  }
-}
-@media screen and (max-width: 460px) {
-  .offside-element {
-    position: relative;
-    top: 50px;
+    padding: 1rem 7% 1.4rem;
+
+    h2 {
+      text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 3rem;
+    }
   }
 
-  .carousel {
-    height: 30px;
-  }
-
-  .contact{
-    padding: 70vh 7% 1.4rem;
-  }
-  .about .about-img img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    height: auto;
-    width: 500px;
-  }
-
-  .about {
-    padding: 2rem 1 1.4rem;
+  .contact {
+    padding: 50rem 7% 1.4rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
+
+    .maps {
+      width: 90%;
+      height: 650px;
+      padding-left: 10%;
+    }
   }
 
-  .menu {
-    padding: 5vh 7% 1.4rem;
-  }
-  .menu h2 {
+  .contact h2 {
+    text-align: center;
+    font-size: 2.6rem;
     margin-bottom: 3rem;
+  }
+  .contact .row {
+    padding: 7%;
   }
 
   .card-body{
-    background-color: #313131;
-    -webkit-text-fill-color: white;
+      background-color: #313131;
+      -webkit-text-fill-color: white;
+  }
+  .card-body .card-title{
+    font-size: 300%;
   }
 }
+@media screen and (max-width: 1024px) {
+  .carousel {
+    margin-top: 18%;
+    height: 100%;
+  }
+
+  .carousel-item img{
+    height: 670px;
+  }
+
+  .about {
+    padding: 1rem 7% 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+      text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 3rem;
+    }
+
+    p {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .about-img img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 800px;
+      height: 300px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .menu {
+    padding: 1rem 7% 1.4rem;
+
+    h2 {
+      text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .contact {
+    padding: 35rem 7% 1.4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .maps {
+      width: 90%;
+      height: 500px;
+      padding-left: 10%;
+    }
+  }
+
+  .contact h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+  }
+  .contact .row {
+    padding: 7%;
+  }
+
+  .card-body{
+      background-color: #313131;
+      -webkit-text-fill-color: white;
+  }
+  .card-body .card-title{
+    font-size: 200%;
+  }
+}
+@media screen and (max-width: 884px) {
+  .carousel {
+    margin-top: 21%;
+    height: 100%;
+  }
+
+  .carousel-item img{
+    height: auto;
+  }
+
+  .about {
+    padding: 5rem 7% 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+      text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 3rem;
+    }
+
+    p {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .about-img img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 800px;
+      height: 300px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .menu {
+    padding: 5rem 7% 1.4rem;
+
+    h2 {
+      text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .contact {
+    padding: 30rem 7% 1.4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .maps {
+      width: 90%;
+      height: 500px;
+      padding-left: 10%;
+    }
+  }
+
+  .contact h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+  }
+  .contact .row {
+    padding: 7%;
+  }
+
+  .card-body{
+      background-color: #313131;
+      -webkit-text-fill-color: white;
+  }
+  .card-body .card-title{
+    font-size: 200%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .carousel {
+    margin-top: 30%;
+    height: 100%;
+  }
+
+  .carousel-item img{
+    height: auto;
+  }
+
+  .about {
+    padding: 5rem 7% 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+      text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 3rem;
+    }
+
+    p {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .about-img img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      height: 200px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .menu {
+    padding: 5rem 7% 1.4rem;
+
+    h2 {
+      text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .contact {
+    padding: 30rem 7% 1.4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .maps {
+      width: 90%;
+      height: 400px;
+      padding-left: 10%;
+    }
+  }
+
+  .contact h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+  }
+  .contact .row {
+    padding: 7%;
+  }
+
+  .card-body{
+      background-color: #313131;
+      -webkit-text-fill-color: white;
+  }
+  .card-body .card-title{
+    font-size: 200%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .carousel {
+    margin-top: 40%;
+    height: 100%;
+  }
+
+  .carousel-item img{
+    height: auto;
+  }
+
+  .about {
+    padding: 5rem 7% 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+      text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 3rem;
+    }
+
+    p {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .about-img img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      height: 200px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .menu {
+    padding: 5rem 7% 1.4rem;
+
+    h2 {
+      text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .contact {
+    padding: 25rem 7% 1.4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .maps {
+      width: 90%;
+      height: 400px;
+      padding-left: 10%;
+    }
+  }
+
+  .contact h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+  }
+  .contact .row {
+    padding: 7%;
+  }
+
+  .card-body{
+      background-color: #313131;
+      -webkit-text-fill-color: white;
+  }
+  .card-body .card-title{
+    font-size: 150%;
+  }
+}
+
 </style>

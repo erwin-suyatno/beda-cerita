@@ -28,7 +28,7 @@
   color: #eeefea;
   text-align: center;
   padding: 1rem 0;
-  margin-top: 3rem;
+  margin-top: 10px;
 }
 
 .footer .socials {
