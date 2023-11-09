@@ -64,18 +64,18 @@ export default {
 
 <style>
 .image-container {
-  width: 400px;
+  width: 300px;
   display: flex;
   align-items: center;
   overflow: hidden;
   justify-content: center;
 }
 .navbar {
-  font-size: 1.8rem; /* "auto" mungkin tidak perlu, karena ukuran font sebaiknya diatur secara eksplisit */
+  font-size: 1.6rem; /* "auto" mungkin tidak perlu, karena ukuran font sebaiknya diatur secara eksplisit */
 }
 
 .nav-item {
-  padding: 1rem;
+  padding: 5px;
   width: auto;
   text-align: center;
 }
