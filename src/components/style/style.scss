@@ -4,7 +4,7 @@ input[type="radio"] {
 }
 
 .card {
-  width: 30%;
+  width: 500px;
   height: 100%;
   left: 0;
   right: 0;
@@ -42,7 +42,7 @@ img {
 #item-1:checked ~ .cards #song-3,
 #item-2:checked ~ .cards #song-1,
 #item-3:checked ~ .cards #song-2 {
-  transform: translatex(180%) scale(0.6);
+  transform: translatex(145%) scale(0.6);
   opacity: 0.4;
   z-index: 0;
 }
@@ -50,7 +50,7 @@ img {
 #item-1:checked ~ .cards #song-2,
 #item-2:checked ~ .cards #song-3,
 #item-3:checked ~ .cards #song-1 {
-  transform: translatex(50%) scale(0.6);
+  transform: translatex(20%) scale(0.6);
   opacity: 0.4;
   z-index: 0;
 }
@@ -58,21 +58,178 @@ img {
 #item-1:checked ~ .cards #song-1,
 #item-2:checked ~ .cards #song-2,
 #item-3:checked ~ .cards #song-3 {
-  transform: translatex(115%) scale(0.8) translateY(-20px);
+  transform: translatex(80%) scale(0.8) translateY(-20px);
   opacity: 1;
   z-index: 1;
 
-  img {
-    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
-  }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1920px) {
+  
+  .card {
+    width: 900px;
+    height: 100%;
+    left: 0;
+    right: 0;
+    transition: transform 0.8s ease;
+    cursor: pointer;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cards {
+    justify-content: center;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
   
   #item-1:checked ~ .cards #song-3,
   #item-2:checked ~ .cards #song-1,
   #item-3:checked ~ .cards #song-2 {
-    transform: translatex(170%) scale(0.6);
+    transform: translatex(60%) scale(0.6);
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  #item-1:checked ~ .cards #song-2,
+  #item-2:checked ~ .cards #song-3,
+  #item-3:checked ~ .cards #song-1 {
+    transform: translatex(-20%) scale(0.6);
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  #item-1:checked ~ .cards #song-1,
+  #item-2:checked ~ .cards #song-2,
+  #item-3:checked ~ .cards #song-3 {
+    transform: translatex(20%) scale(0.8) translateY(-20px);
+    opacity: 1;
+    z-index: 1;
+  
+  }
+}
+@media screen and (min-width: 1440px) {
+  
+  .card {
+    width: 600px;
+    height: 100%;
+    left: 0;
+    right: 0;
+    transition: transform 0.8s ease;
+    cursor: pointer;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cards {
+    justify-content: center;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  #item-1:checked ~ .cards #song-3,
+  #item-2:checked ~ .cards #song-1,
+  #item-3:checked ~ .cards #song-2 {
+    transform: translatex(100%) scale(0.6);
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  #item-1:checked ~ .cards #song-2,
+  #item-2:checked ~ .cards #song-3,
+  #item-3:checked ~ .cards #song-1 {
+    transform: translatex(0%) scale(0.6);
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  #item-1:checked ~ .cards #song-1,
+  #item-2:checked ~ .cards #song-2,
+  #item-3:checked ~ .cards #song-3 {
+    transform: translatex(50%) scale(0.8) translateY(-20px);
+    opacity: 1;
+    z-index: 1;
+  
+  }
+}
+@media screen and (max-width: 1024px) {
+  .card {
+    width: 500px;
+    height: 100%;
+    left: 0;
+    right: 0;
+    transition: transform 0.8s ease;
+    cursor: pointer;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cards {
+    justify-content: center;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  #item-1:checked ~ .cards #song-3,
+  #item-2:checked ~ .cards #song-1,
+  #item-3:checked ~ .cards #song-2 {
+    transform: translatex(85%) scale(0.6);
     opacity: 0.4;
     z-index: 0;
   }
@@ -80,7 +237,7 @@ img {
   #item-1:checked ~ .cards #song-2,
   #item-2:checked ~ .cards #song-3,
   #item-3:checked ~ .cards #song-1 {
-    transform: translatex(30%) scale(0.6);
+    transform: translatex(-15%) scale(0.6);
     opacity: 0.4;
     z-index: 0;
   }
@@ -88,7 +245,7 @@ img {
   #item-1:checked ~ .cards #song-1,
   #item-2:checked ~ .cards #song-2,
   #item-3:checked ~ .cards #song-3 {
-    transform: translatex(100%) scale(1) translateY(-20px);
+    transform: translatex(35%) scale(0.8) translateY(-20px);
     opacity: 1;
     z-index: 1;
 
@@ -97,12 +254,46 @@ img {
     }
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 884px) {
+  .card {
+    width: 400px;
+    height: 100%;
+    left: 0;
+    right: 0;
+    transition: transform 0.8s ease;
+    cursor: pointer;
+  }
   
+  .container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cards {
+    justify-content: center;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
   #item-1:checked ~ .cards #song-3,
   #item-2:checked ~ .cards #song-1,
   #item-3:checked ~ .cards #song-2 {
-    transform: translatex(185%) scale(0.6);
+    transform: translatex(85%) scale(0.6);
     opacity: 0.4;
     z-index: 0;
   }
@@ -110,7 +301,7 @@ img {
   #item-1:checked ~ .cards #song-2,
   #item-2:checked ~ .cards #song-3,
   #item-3:checked ~ .cards #song-1 {
-    transform: translatex(40%) scale(0.6);
+    transform: translatex(-15%) scale(0.6);
     opacity: 0.4;
     z-index: 0;
   }
@@ -118,7 +309,7 @@ img {
   #item-1:checked ~ .cards #song-1,
   #item-2:checked ~ .cards #song-2,
   #item-3:checked ~ .cards #song-3 {
-    transform: translatex(110%) scale(1) translateY(-20px);
+    transform: translatex(35%) scale(0.8) translateY(-20px);
     opacity: 1;
     z-index: 1;
 
@@ -128,17 +319,45 @@ img {
   }
 }
 @media screen and (max-width: 460px) {
-  .cards{
+  .card {
+    width: 250px;
+    height: 100%;
+    left: 0;
+    right: 0;
+    transition: transform 0.8s ease;
+    cursor: pointer;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cards {
+    justify-content: center;
     display: block;
     position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
   }
-  .card{
-    width: 60%;
+  
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
   }
   #item-1:checked ~ .cards #song-3,
   #item-2:checked ~ .cards #song-1,
   #item-3:checked ~ .cards #song-2 {
-    transform: translatex(100%) scale(0.6);
+    transform: translatex(55%) scale(0.6);
     opacity: 0.4;
     z-index: 0;
   }
@@ -146,7 +365,7 @@ img {
   #item-1:checked ~ .cards #song-2,
   #item-2:checked ~ .cards #song-3,
   #item-3:checked ~ .cards #song-1 {
-    transform: translatex(-40%) scale(0.6);
+    transform: translatex(-15%) scale(0.6);
     opacity: 0.4;
     z-index: 0;
   }
@@ -154,7 +373,71 @@ img {
   #item-1:checked ~ .cards #song-1,
   #item-2:checked ~ .cards #song-2,
   #item-3:checked ~ .cards #song-3 {
-    transform: translatex(60px) scale(1) translateY(-20px);
+    transform: translatex(20%) scale(0.8) translateY(-20px);
+    opacity: 1;
+    z-index: 1;
+
+    img {
+      box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+    }
+  }
+}
+@media screen and (max-width: 390px) {
+  .card {
+    width: 200px;
+    height: 100%;
+    left: 0;
+    right: 0;
+    transition: transform 0.8s ease;
+    cursor: pointer;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cards {
+    justify-content: center;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  #item-1:checked ~ .cards #song-3,
+  #item-2:checked ~ .cards #song-1,
+  #item-3:checked ~ .cards #song-2 {
+    transform: translatex(60%) scale(0.6);
+    opacity: 0.4;
+    z-index: 0;
+  }
+
+  #item-1:checked ~ .cards #song-2,
+  #item-2:checked ~ .cards #song-3,
+  #item-3:checked ~ .cards #song-1 {
+    transform: translatex(-15%) scale(0.6);
+    opacity: 0.4;
+    z-index: 0;
+  }
+
+  #item-1:checked ~ .cards #song-1,
+  #item-2:checked ~ .cards #song-2,
+  #item-3:checked ~ .cards #song-3 {
+    transform: translatex(25%) scale(0.8) translateY(-20px);
     opacity: 1;
     z-index: 1;
 

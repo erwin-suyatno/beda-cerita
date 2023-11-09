@@ -18,7 +18,7 @@
           <img src="../assets/logo-beda-cerita.png" alt="@bedacerita" />
         </div>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="float: none; margin: 0 auto;">
             <li class="nav-item">
               <router-link to="/" class="nav-link active" aria-current="page">Home</router-link>
             </li>
@@ -35,7 +35,7 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div style="width: 20%;">
           <!-- icon Search -->
           
         </div>
@@ -85,17 +85,63 @@ export default {
   max-width: 100%; /* Gambar tidak melebihi lebar parent (kontainer) */
 }
 
-  @media screen and (max-width: 1024px) {
-  /* Mengatur ukuran font dan padding pada elemen navbar saat layar lebih kecil dari 1024px */
+
+@media screen and (min-width: 1920px) {
   .navbar {
-    font-size: 10px;
+    font-size: 300%;
   }
 
   .nav-item {
+    margin: 20px;
     padding-right: 10px;
   }
 
   .image-container {
+    margin-left: 100px;
+    padding: 30px;
+    width: 600px;
+  }
+
+  .image-container img {
+    max-width: 200%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .navbar {
+    font-size: 160%;
+  }
+
+  .nav-item {
+    padding: 0;
+    margin: 10px;
+    padding-right: 5px;
+  }
+
+  .image-container {
+    margin-left: 50px;
+    padding: 10px;
+    width: 400px;
+  }
+
+  .image-container img {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* Mengatur ukuran font dan padding pada elemen navbar saat layar lebih kecil dari 1024px */
+  .navbar {
+    font-size: 120%;
+  }
+
+  .nav-item {
+    padding: 0;
+    margin: 8px;
+    padding-right: 3px;
+  }
+
+  .image-container {
+    margin-left: 30px;
+    padding: 10px;
     width: 300px;
   }
 
@@ -108,19 +154,17 @@ export default {
 @media screen and (max-width: 768px) {
   /* Mengatur ukuran font dan padding pada elemen navbar saat layar lebih kecil dari 768px */
   .navbar {
-    font-size: 20px;
+    font-size: 200%;
   }
 
-  .nav-item {
-    padding-right: 10px;
-  }
 
   .image-container {
-    width: 200px;
+    padding-left: 10%;
+    width: 300px;
   }
 
   .image-container img {
-    max-width: 80%;
+    max-width: 100%;
   }
 }
 
@@ -131,16 +175,12 @@ export default {
     font-size: 15px;
   }
 
-  .nav-item {
-    padding-right: 5px;
-  }
-
   .image-container {
     width: 200px;
   }
 
   .image-container img {
-    max-width: 80%;
+    max-width: 100%;
   }
 }
 
