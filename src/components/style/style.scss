@@ -228,7 +228,7 @@ img {
   #item-1:checked ~ .cards #song-3,
   #item-2:checked ~ .cards #song-1,
   #item-3:checked ~ .cards #song-2 {
-    transform: translatex(85%) scale(0.6);
+    transform: translatex(100%) scale(0.6);
     opacity: 0.4;
     z-index: 0;
   }
@@ -236,7 +236,7 @@ img {
   #item-1:checked ~ .cards #song-2,
   #item-2:checked ~ .cards #song-3,
   #item-3:checked ~ .cards #song-1 {
-    transform: translatex(-15%) scale(0.6);
+    transform: translatex(-0%) scale(0.6);
     opacity: 0.4;
     z-index: 0;
   }
@@ -244,7 +244,7 @@ img {
   #item-1:checked ~ .cards #song-1,
   #item-2:checked ~ .cards #song-2,
   #item-3:checked ~ .cards #song-3 {
-    transform: translatex(35%) scale(0.8) translateY(-20px);
+    transform: translatex(50%) scale(0.8) translateY(-20px);
     opacity: 1;
     z-index: 1;
 
