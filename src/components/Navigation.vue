@@ -6,7 +6,7 @@
         <router-link to="/" class="nav-link active">Home</router-link>
       </li>
       <li class="nav-item">
-        <router-link to="/" class="nav-link">Tentang Kami</router-link>
+        <router-link to="/about" class="nav-link">Tentang Kami</router-link>
       </li>
       <li class="nav-item">
         <router-link to="/menu" class="nav-link">Menu</router-link>
