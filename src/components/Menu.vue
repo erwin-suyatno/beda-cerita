@@ -129,7 +129,6 @@ let daftarMakan = [
   <div class="menu">
     <h1>Our Menu</h1>
     <!-- Tampilkan informasi kontak kedai kopi -->
-    <div class="row">
       <div class="card bg-dark" style="cursor: default">
         <div>
           <h1 style="color: aliceblue">Minum</h1>
@@ -146,9 +145,8 @@ let daftarMakan = [
           </div>
         </div>
       </div>
-    </div>
     <br />
-    <div class="row">
+    
       <div class="card bg-dark" style="cursor: default">
         <div>
           <h1 style="color: aliceblue">Makanan</h1>
@@ -165,7 +163,7 @@ let daftarMakan = [
           </div>
         </div>
       </div>
-    </div>
+    
   </div>
 </template>
 <style scoped lang="scss">
