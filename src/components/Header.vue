@@ -14,13 +14,22 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="image-container" href="#">
-          <img src="../assets/logo-beda-cerita.png" alt="@bedacerita" />
+        <div class="image-container" href="Home">
+          <img
+            src="../assets/logo-beda-cerita.png"
+            alt="@bedacerita"
+            href="/"
+          />
         </div>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="float: none; margin: 0 auto;">
+          <ul
+            class="navbar-nav me-auto mb-2 mb-lg-0"
+            style="float: none; margin: 0 auto"
+          >
             <li class="nav-item">
-              <router-link to="/" class="nav-link active" aria-current="page">Home</router-link>
+              <router-link to="/" class="nav-link active" aria-current="page"
+                >Home</router-link
+              >
             </li>
             <li class="nav-item">
               <router-link to="/about" class="nav-link"
@@ -35,9 +44,8 @@
             </li>
           </ul>
         </div>
-        <div style="width: 20%;">
+        <div style="width: 20%">
           <!-- icon Search -->
-          
         </div>
       </div>
     </nav>
@@ -64,30 +72,30 @@ export default {
 
 <style>
 .navbar {
-    font-size: 180%;
-  }
+  font-size: 180%;
+}
 
-  .nav-item {
-    margin: 20px;
-    padding-right: 10px;
-    padding: 5px;
-    width: auto;
-    text-align: center;
-  }
+.nav-item {
+  margin: 20px;
+  padding-right: 10px;
+  padding: 5px;
+  width: auto;
+  text-align: center;
+}
 
-  .image-container {
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    justify-content: center;
-    margin-left: 100px;
-    padding: 30px;
-    width: 400px;
-  }
+.image-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  margin-left: 100px;
+  padding: 30px;
+  width: 400px;
+}
 
-  .image-container img {
-    max-width: 150%;
-  }
+.image-container img {
+  max-width: 150%;
+}
 
 @media screen and (max-width: 1440px) {
   .navbar {
@@ -110,7 +118,7 @@ export default {
     max-width: 100%;
   }
 }
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1300px) {
   .image-container {
     width: 300px;
     display: flex;
@@ -163,7 +171,6 @@ export default {
     font-size: 200%;
   }
 
-
   .image-container {
     padding-left: 10%;
     width: 300px;
@@ -189,5 +196,4 @@ export default {
     max-width: 100%;
   }
 }
-
 </style>
