@@ -129,7 +129,7 @@ let daftarMakan = [
   <div class="menu">
     <h1>Our Menu</h1>
     <!-- Tampilkan informasi kontak kedai kopi -->
-      <div class="card bg-dark" style="cursor: default">
+      <div class="card-menu bg-dark" style="cursor: default">
         <div>
           <h1 style="color: aliceblue">Minum</h1>
         </div>
