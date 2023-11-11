@@ -147,7 +147,7 @@ let daftarMakan = [
       </div>
     <br />
     
-      <div class="card bg-dark" style="cursor: default">
+      <div class="card-menu bg-dark" style="cursor: default">
         <div>
           <h1 style="color: aliceblue">Makanan</h1>
         </div>
@@ -167,6 +167,12 @@ let daftarMakan = [
   </div>
 </template>
 <style scoped lang="scss">
+.card-menu{
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
 .menu {
   padding: 10rem 7% 1.4rem;
 
