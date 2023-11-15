@@ -11,6 +11,7 @@
           aria-controls="navbarTogglerDemo03"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          @click="toggleNavbar"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,7 +22,7 @@
             href="/"
           />
         </div>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <div class="collapse navbar-collapse" :class="{ show: isNavbarOpen }" id="navbarTogglerDemo03">
           <ul
             class="navbar-nav me-auto mb-2 mb-lg-0"
             style="float: none; margin: 0 auto"
@@ -58,6 +59,12 @@ export default {
     return {
       isNavbarOpen: false,
     };
+  },
+  watch: {
+    $route(to, from) {
+      // Close the navbar when the route changes
+      this.isNavbarOpen = false;
+    },
   },
   methods: {
     toggleNavbar() {
