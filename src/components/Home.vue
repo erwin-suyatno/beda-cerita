@@ -103,7 +103,7 @@
               />
             </div>
             <div class="card-body">
-              <h3 class="card-title">Lembayung</h3>
+              <h3 class="card-title">Epilog</h3>
               <p class="card-text">
                 Lorem, Quasi possimus minima itaque? Magnam voluptatum molestias
                 corrupti rem molestiae.
@@ -119,7 +119,7 @@
               />
             </div>
             <div class="card-body">
-              <h3 class="card-title">Americano</h3>
+              <h3 class="card-title">Kesan Pertama</h3>
               <p class="card-text">
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content.
