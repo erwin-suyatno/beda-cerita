@@ -27,7 +27,7 @@
             style="float: none; margin: 0 auto"
           >
             <li class="nav-item">
-              <router-link to="/" class="nav-link active" aria-current="page"
+              <router-link to="/" class="nav-link" aria-current="page"
                 >Home</router-link
               >
             </li>
